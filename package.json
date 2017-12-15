@@ -1,18 +1,18 @@
 {
   "name": "joi-docset",
-  "version": "1.0.0",
+  "version": "13.0.2",
   "description": "Dash docset for joi",
   "main": "generate.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "node $npm_package_main && tar --exclude='.DS_Store' -cvzf ./releases/joi-$npm_package_version.tgz joi.docset"
   },
-  "author": "Timo Behrmann",
+  "author": "bacilla-ru",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^2.4.1",
-    "mkdirp": "^0.5.0",
-    "q": "^1.0.1",
-    "request": "^2.36.0",
-    "sqlite3": "^2.2.3"
+    "better-sqlite3": "^4.0.3",
+    "graceful-fs": "^4.1.11",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "request": "^2.83.0"
   }
 }

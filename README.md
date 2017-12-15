@@ -1,9 +1,9 @@
 # joi.docset
-Just a simple dash docset for joi (https://github.com/spumko/joi). Available through dashs "user contributed" channel ;-)
+Just a simple dash docset for [Joi](https://github.com/hapijs/joi).
 
 ## Generate Docset
 
+Change Joi version in `package.json`, then:
 ```bash
-node generate
-tar --exclude='.DS_Store' -cvzf ./releases/joi-XXX.tgz joi.docset
+npm run release
 ```

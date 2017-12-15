@@ -61,7 +61,7 @@ body a.anchor
   position:absolute;
   top:0;
   left:0;
-  bottom:0
+  bottom:0;
 }
 
 /*h4,h5,h6{ font-weight: bold; }*/
